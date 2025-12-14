@@ -106,7 +106,7 @@ const Navbar = () => {
           onClick={() => navigate("/AddProduct")}
           className="px-4 py-2 bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white font-medium rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-emerald-500/25 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-gray-900 text-sm cursor-pointer"
         >
-          Add Product
+          Create Room
         </button>
 
         {isLoggedin ? (
